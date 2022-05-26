@@ -1,0 +1,72 @@
+
+
+body {
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.navbar-top {
+    width: 1600px;
+    height: 600px;
+    clear: both;
+    background-image: url("images/resta.jpg");
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    list-style-type: none;
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+nav i {
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px; 
+    font-family: 'Smooch', cursive;
+    letter-spacing: 4;
+}
+
+nav .navbar-name {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 9px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    border-bottom: 3px solid white;
+    transition: 3px 2s ease-in-out;
+}
+
+.about-container {
+  display: block;
+}
+.content h1, h5 {
+    float: right;
+    padding-right: 420px;
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: black;
+    
+}
+
+.content img {
+    width: 30%;
+    height: 20%;
+    margin: 70px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}

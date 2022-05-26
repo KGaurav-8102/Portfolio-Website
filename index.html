@@ -1,340 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Awesome Portfolio</title>
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Smooch&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Poppins:wght@400;600&family=Smooch&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="stylesheet" href="owlCarousel/owl.carousel.min.css">
-     <link rel="stylesheet" href="owlCarousel/owl.theme.default.min.css">
-     <link rel="stylesheet" href="css/style.css">
- </head>
+<html>
+    <head>
+        <title>Restaurant</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
     <body>
-        <header>
-            <div class="container">
-                <nav class="flex items-center justify-between">
-                    <div class="left flex items-center">
-                        <div class="branding">
-                            <img src="images/logo.svg" alt="">
-                        </div>
-                        <div>
-                            <a href="#">Home</a>
-                            <a href="#about">About</a>
-                            <a href="#services">Services</a>
-                            <a href="#reviews">Pages</a>
-                            <a href="#blog">Blog</a>
-                        </div>
-                    </div>
-                    <div class="right">
-                        <button class="btn btn-primary">Contact</button>
-                    </div>
-                </nav>
-                <div class="hero flex items-center justify-between">
-                    <div class="left flex flex-1 justify-center">
-                        <img src="images/man.png" alt="" />
-                    </div>
-                    <div class="right flex-1">
-                        <h6>Johnathan Vics</h6>
-                        <h1>I'm a Creative <span>Designer</span></h1>
-                        <p>Lorem ipsum, in graphical and textual context, refers to filler text that is placed in a document or visual presentation. Lorem ipsum is derived from the Latin "dolorem ipsum" roughly translated as "pain itself."</p>
-                        <div>
-                            <button class="btn btn-secondary">DownLoad CV</button>
-                        </div>
-                    </div>
+        <!-- Navbar -->
+        <div class="w3-top">
+            <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing: 4px;">
+                <a href="#Home" class="W3-bar-item w3-button">Gourmet au Catering</a>
+                <div class="w3-right w3-hide-small">
+                    <a href="#about" class="w3-bar-item w3-button">About</a>
+                    <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+                    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
                 </div>
             </div>
+        </div>
+        <!-- Header -->
+        <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+           <img class="w3-image" src="images/resta.jpg" alt="restaurant" width="1600" height="800" />
+             <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+                <h1 class="w3-xxlarge" style="color: white">Le Catering</h1>
+             </div>
         </header>
-        <section id="about" class="about">
-            <div class="container flex items-center">
-                <div class="flex-1">
-                    <img class="about-me-img" src="images/man-2.png" alt=''/>
+        <!-- page Content -->
+        <div class="w3-content" style="max-width: 1100px">
+            <!-- About Section -->
+            <div class="w3-row w3-padding-64" id="about">
+                <div class="w3-col m6 w3-padding-large w3-hide-small">
+                    <img src="images/F2.jpg" class="w3-round w3-img w3-opacity-min" width="400" height="600" />
                 </div>
-                <div class="flex-1">
-                    <h1>About <span>Me</span></h1>
-                    <h3>Hello! i'm Johnathan Vics.</h3>
-                    <p>  
-                         Lorem ipsum is a placeholder text commonly used to demonstrate
-                        the visual form of a document or a typeface without relying on 
-                        meaningful content. Lorem ipsum may be used as a placeholder before
-                        final copy is available.
-                        
-                        Lorem Ipsum, sometimes referred to as 'lipsum', is the placeholder
-                        text used in design when creating content.Lorem Ipsum is simply dummy
-                        text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s, when an unknown 
-                        printer took a galley of type and scrambled it to make a type specimen book
+                <div class="w3-col m6 w3-padding-large">
+                    <h1 class="w3-center">About Catering</h1>
+                    <h5 class="w3-center">Tradition since 1889</h5>
+                    <p class="w3-large"> 
+                        The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="w3-tag w3-light-grey">seasonal</span> ingredients.
                     </p>
-                    <div class="social">
-                        <a href="#"><i class="fa-brands fa-firefox"></i></a>
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
+                      <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
             </div>
-        </section>
-        <section id="services" class="services">
-            <div class="container">
-                <h1 class="section-heading"><span>Our</span>Services</h1>
-                <p>We  Provide high standar clean website for your business solutions </p>
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="card-container">
-                            <i class="fa-solid fa-paintbrush"></i>
-                        </div>
-                        <h2>Graphic Design</h2>
-                        <p>There are manuy variations of passages of but the majority has suffered alteration in some form.</p>
+            <hr/>
+            <!-- Menu Section -->
+            <div class="w3-row w3-padding-64" id="menu">
+                <div class="w3-col 16 w3-padding-large">
+                    <h1 class="w3-center">Our Menu</h1><br>
+                        <h4>Bread Basket</h4>
+                          <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+                            <h4>Honey Almond Granola with Fruits</h4>
+                              <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+
+                              <h4>Belgian Waffle</h4>
+                              <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+
+                              <h4>Scrambled eggs</h4>
+                              <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+
+                              <h4>Blueberry Pancakes</h4>
+                              <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
                     </div>
-                    <div class="card">
-                        <div class="card-container">
-                            <i class="fa-solid fa-code"></i>
-                        </div>
-                        <h2>Web Development</h2>
-                        <p>There are manuy variations of passages of but the majority has suffered alteration in some form.</p>
-                    </div>
-                    <div class="card">
-                        <div class="card-container">
-                            <i class="fa-solid fa-briefcase"></i>
-                        </div>
-                        <h2>Mobile Marketing</h2>
-                        <p>There are manuy variations of passages of but the majority has suffered alteration in some form.</p>
-                    </div>
-                    <div class="card">
-                        <div class="card-container">
-                            <i class="fa-solid fa-desktop"></i>
-                        </div>
-                        <h2>Web Design</h2>
-                        <p>There are manuy variations of passages of but the majority has suffered alteration in some form.</p>
-                    </div>
-                    <div class="card">
-                        <div class="card-container">
-                            <i class="fa-solid fa-film"></i>
-                        </div>
-                        <h2>Motion Graphics</h2>
-                        <p>There are manuy variations of passages of but the majority has suffered alteration in some form.</p>
-                    </div>
-                    <div class="card">
-                        <div class="card-container">
-                            <i class="fa-solid fa-mobile-screen"></i>
-                        </div>
-                        <h2>Apps</h2>
-                        <p>There are manuy variations of passages of but the majority has suffered alteration in some form.</p>
-                    </div>
+                 <div class="w3-col w3-padding-64">
+                    <img src="images/F1.jpg" class="w3-round w3-img w3-opacity-min" alt="menu" style="width: 100%" />
                 </div>
             </div>
-        </section>
-        <section id="freelancer" class="freelancer">
-            <h1>I Am Available for Freelancer.</h1>
-            <p>We Provide high Standar clean website for your business solutions</p>
-            <button class="btn btn-primary">DOWNLOAD CV</button>
-        </section>
-        <section id="reviews" class="reviews">
-            <div class="container">
-                <h1 class="section-heading"><span>Our</span>Client</h1>
-                 <p>We Provide high Standar clean website for your business solutions</p>
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <img src="images/lady.png" alt="">
-                        <p>
-                            Lorem ipsum is a placeholder text commonly used to demonstrate
-                        the visual form of a document or a typeface without relying on 
-                        meaningful content. 
-                        </p>
-                         <span>-John Doe, Comapny ABC</span>
-                    </div>
-                    <div class="item">
-                        <img src="images/lady.png" alt="">
-                        <p>
-                            Lorem ipsum is a placeholder text commonly used to demonstrate
-                        the visual form of a document or a typeface without relying on 
-                        meaningful content.
-                        </p>
-                         <span>-John Doe, Comapny ABC</span>
-                    </div>
-                    <div class="item">
-                        <img src="images/lady.png" alt="">
-                        <p>
-                            Lorem ipsum is a placeholder text commonly used to demonstrate
-                        the visual form of a document or a typeface without relying on 
-                        meaningful content. 
-                        </p>
-                        <span>-John Doe, Comapny ABC</span>
-                    </div>
-                    <div class="item">
-                        <img src="images/lady.png" alt="">
-                        <p>
-                            Lorem ipsum is a placeholder text commonly used to demonstrate
-                        the visual form of a document or a typeface without relying on 
-                        meaningful content.
-                        </p>
-                         <span>-John Doe, Comapny ABC</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="work">
-            <div class="container">
-                <h1 class="section-heading"><span>Our</span>Works</h1>
-                <p>We Provide high Standar clean website for your business solutions</p>
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Development</a>
-                        </div>
-                        <img src="images/ph-1.png" alt="" >
-                    </div>
-                     <div class="card">
-                          <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Development</a>
-                        </div>
-                        <img src="images/ph-1.png" alt="" >
-                    </div>
-                     <div class="card">
-                          <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Development</a>
-                        </div>
-                        <img src="images/ph-1.png" alt="" >
-                    </div>
-                     <div class="card">
-                          <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Development</a>
-                        </div>
-                        <img src="images/ph-1.png" alt="" >
-                    </div>
-                     <div class="card">
-                          <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Development</a>
-                        </div>
-                        <img src="images/ph-1.png" alt="" >
-                    </div>
-                     <div class="card">
-                          <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Development</a>
-                        </div>
-                        <img src="images/ph-1.png" alt="" >
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- blog Section -->
-        <section id="blog" class="blog">
-            <div class="container">
-                <h1 class="section-heading"><span>Our</span> Blog</h1>
-                <p>We Provide high Standar clean website for your business solutions</p>
-                
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="img-wrapper">
-                            <img src="images/article-ph-1.png" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#">
-                                <h1>Occusamus et iusto odio</h1>
-                            </a>
-                            <span>May 12, 2017</span>
-                            <p>Lorem ipsum dolor sit amet. Ab inventore error ut officiis necessitatibus
-                            sit impedit assumenda sed accusamus atque. Hic omnis voluptas ea internos de
-                            leniti ut omnis Quis.</p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                       <div class="card">
-                        <div class="img-wrapper">
-                            <img src="images/article-ph-1.png" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#">
-                                <h1>Occusamus et iusto odio</h1>
-                            </a>
-                            <span>May 12, 2017</span>
-                            <p>Lorem ipsum dolor sit amet. Ab inventore error ut officiis necessitatibus
-                            sit impedit assumenda sed accusamus atque. Hic omnis voluptas ea internos de
-                            leniti ut omnis Quis.</p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                       <div class="card">
-                        <div class="img-wrapper">
-                            <img src="images/article-ph-1.png" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#">
-                                <h1>Occusamus et iusto odio</h1>
-                            </a>
-                            <span>May 12, 2017</span>
-                            <p>Lorem ipsum dolor sit amet. Ab inventore error ut officiis necessitatibus
-                            sit impedit assumenda sed accusamus atque. Hic omnis voluptas ea internos de
-                            leniti ut omnis Quis.</p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Contact Us  start -->
-        <section class="contact">
-            <div class="container">
-                <h1 class="section-heading">Contact<span>Us</span></h1>
-                 <p>We Provide high Standar clean website for your business solutions</p>
-                <div class="card-wrapper">
-                    <div class="card">
-                        <i class="fa-solid fa-mobile-screen"></i>
-                        <h1>Call Us On</h1>
-                        <h6>+985 126 7853</h6>
-                    </div>
-                     <div class="card">
-                        <i class="fa-regular fa-envelope"></i>
-                        <h1>Email Us At</h1>
-                        <h6>support@comnpanyname.com</h6>
-                    </div>
-                     <div class="card">
-                         <i class="fa-regular fa-map"></i>
-                        <h1>Visit Office</h1>
-                        <h6>Akshya Nagar 1st Block 1st Cross, 
-                            Rammurthy nagar, Bangalore-560016</h6>
-                    </div>
-                </div>
+            <hr>
+            <!-- Contact Section -->
+            <div class="w3-container w3-padding-64" id="contact">
+                <h1>Contact</h1><br>
+                  <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+                      <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+                        <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
                 <form>
-                <div class="input-wrap">
-                    <input type="text" placeholder="Your Name *" />
-                    <input type="email" placeholder="Your Email *" />
-                </div>
-                <div class="input-wrap-2">
-                    <input type="text" placeholder="Your Subject..." />
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message.."></textarea>
-                </div>
-                <div class="btn-wrapper">
-                    <button class="btn btn-primary">Send Message</button>
-                </div>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
                 </form>
-            </div>
-        </section>
-        <!-- footer -->
-        <footer>
-            <img class="footer-logo" src="images/logo-2.svg" alt="">
-            <div class="footer-socials">
-               <a href="#"><i class="fa-brands fa-firefox"></i></a>
-               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-               <a href="#"><i class="fa-brands fa-twitter"></i></a>
-               <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-               <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-            <div class="copyright">
-                Copyright 2022 @ Name PSD Template. All Right Reserved to KgSoftech.
-            </div>
+            </div> 
+        </div>
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-flickr"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <p class="w3-medium">
+                Powered by <a>@KgSoftech</a>
+            </p>
         </footer>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/app.js"></script>
     </body>
 </html>
